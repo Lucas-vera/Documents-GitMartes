@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background: linear-gradient(#d3c, #48c);
+}
+nav a{
+    display: block;
+    color: #eee;
+    text-decoration: none;
+    padding: .5rem;
+}
+.logo{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    margin: .5rem;
+    border: .1rem solid #eee;
+    border-radius: .25rem;
+    color: #eee;
+    background-color: transparent;
+}
+.menu{
+    width: 100%;
+    padding: 0;
+    list-style: none;
+}
+.menu a:hover{
+    background-color: aquamarine;
+}
